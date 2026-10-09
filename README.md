@@ -1,0 +1,1 @@
+# Verification-First-Characterization-of-3GPP-Air-to-Ground-Channels-for-UAV-Base-Stations
