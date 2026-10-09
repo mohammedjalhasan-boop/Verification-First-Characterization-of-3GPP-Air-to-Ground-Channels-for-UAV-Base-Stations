@@ -1,0 +1,16 @@
+{
+  "title": "Verification-first 3GPP air-to-ground channel implementation for UAV base stations: code, verification suites, and QuaDRiGa campaign data",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "language": "eng",
+  "license": "MIT",
+  "description": "<p>Frozen Python implementation of the 3GPP TR 36.777 aerial channel annex over the TR 38.901 framework for UAV base stations (interface v1.0.0), with 48 automated verification checks in five layers (26 + 10 + 12), the executed QuaDRiGa 2.8.1 cross-validation campaign (13,500 links at 2.6, 3.5, and 28 GHz: raw per-link samples, 270-cell reports, campaign log), two comparators (the pack comparator and an independent re-analysis), and the scripts that regenerate every figure and table of the article <em>Verification-First Characterization of 3GPP Air-to-Ground Channels for UAV Base Stations: Implementation, Cross-Validation, and Deployment Implications</em> (submitted to IEEE Access, 2026).</p><p>Reproduction: <code>pip install -r implementation/ch3_code_complete_v7/requirements.txt &amp;&amp; bash tools/run_all.sh</code>. Code under the MIT License; data and documents under CC BY 4.0 (see LICENSING.md).</p>",
+  "creators": [
+    {"name": "Alhasan, Mohammed J.", "affiliation": "Al-Furat Al-Awsat Technical University", "orcid": "0009-0002-2975-8141"},
+    {"name": "Shakir, Wafaa M. R.", "affiliation": "Al-Furat Al-Awsat Technical University", "orcid": "0000-0002-8958-0261"},
+    {"name": "Daghal, Asaad S.", "affiliation": "Al-Furat Al-Awsat Technical University", "orcid": "0000-0002-6882-1177"},
+    {"name": "Salman, Fahama Hassoon", "affiliation": "Al-Furat Al-Awsat Technical University", "orcid": "0000-0002-4985-5099"}
+  ],
+  "keywords": ["3GPP TR 36.777", "air-to-ground channel", "UAV base station", "channel model verification", "QuaDRiGa", "cross-validation", "coverage probability", "altitude optimization", "reproducibility"],
+  "access_right": "open"
+}

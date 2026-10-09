@@ -1,0 +1,59 @@
+# Citation metadata (Citation File Format 1.2.0). Zenodo reads this file when
+# the archive is deposited through the GitHub integration; for a manual
+# deposit the same fields are entered in the Zenodo form.
+# The authors add the Zenodo DOI under "identifiers" after the deposit exists.
+cff-version: 1.2.0
+message: "If you use this archive, please cite both the article and the archive."
+type: software
+title: "Verification-first 3GPP air-to-ground channel implementation for UAV base stations: code, verification suites, and QuaDRiGa campaign data"
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+authors:
+  - family-names: Alhasan
+    given-names: Mohammed J.
+    orcid: "https://orcid.org/0009-0002-2975-8141"
+    affiliation: "Polytechnic College / Al-Najaf, Al-Furat Al-Awsat Technical University, Najaf, Iraq"
+  - family-names: Shakir
+    given-names: Wafaa M. R.
+    orcid: "https://orcid.org/0000-0002-8958-0261"
+    affiliation: "Polytechnic College / Babylon, Al-Furat Al-Awsat Technical University, Babil, Iraq"
+  - family-names: Daghal
+    given-names: Asaad S.
+    orcid: "https://orcid.org/0000-0002-6882-1177"
+    affiliation: "Engineering Technical College of Najaf, Al-Furat Al-Awsat Technical University, Najaf, Iraq"
+  - family-names: Salman
+    given-names: Fahama Hassoon
+    orcid: "https://orcid.org/0000-0002-4985-5099"
+    affiliation: "Polytechnic College / Al-Najaf, Al-Furat Al-Awsat Technical University, Najaf, Iraq"
+keywords:
+  - 3GPP TR 36.777
+  - air-to-ground channel
+  - UAV base station
+  - channel model verification
+  - QuaDRiGa cross-validation
+  - coverage probability
+  - altitude optimization
+  - reproducibility
+abstract: >-
+  Frozen Python implementation of the 3GPP TR 36.777 aerial channel annex over
+  the TR 38.901 framework for UAV base stations, with 48 automated verification
+  checks in five layers, the executed QuaDRiGa 2.8.1 cross-validation campaign
+  (13,500 links at 2.6, 3.5, and 28 GHz; raw per-link samples, cell reports,
+  and campaign log), two comparators, and the scripts that regenerate every
+  figure and table of the accompanying IEEE Access article.
+references:
+  - type: article
+    title: "Verification-First Characterization of 3GPP Air-to-Ground Channels for UAV Base Stations: Implementation, Cross-Validation, and Deployment Implications"
+    authors:
+      - family-names: Alhasan
+        given-names: Mohammed J.
+      - family-names: Shakir
+        given-names: Wafaa M. R.
+      - family-names: Daghal
+        given-names: Asaad S.
+      - family-names: Salman
+        given-names: Fahama Hassoon
+    journal: "IEEE Access"
+    year: 2026
+    notes: "submitted"
